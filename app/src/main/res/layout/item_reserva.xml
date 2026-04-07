@@ -40,12 +40,12 @@
                 android:id="@+id/tvDescripcio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Portatil HP"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="#18181B"
+                android:ellipsize="end"
                 android:maxLines="1"
-                android:ellipsize="end" />
+                android:text="Portatil HP"
+                android:textColor="#18181B"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <!-- Dates de la reserva -->
             <LinearLayout
